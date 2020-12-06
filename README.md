@@ -1,5 +1,7 @@
 # vue-3-ext
 
+vue 3 based chrome extension in typescript (SFC syntax)
+
 ## Project setup
 ```
 npm install
