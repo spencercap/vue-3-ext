@@ -1,4 +1,5 @@
 <template>
+  devtools:
   <hello-world />
 </template>
 
@@ -6,7 +7,6 @@
 import { defineComponent } from 'vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 
-// export default Vue.extend({
 export default defineComponent({
   name: 'App',
   components: { HelloWorld }

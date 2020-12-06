@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>hello world:</p>
     <p>{{ defaultText }}</p>
   </div>
 </template>
@@ -7,7 +8,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-// export default Vue.extend({
 export default defineComponent({
   name: 'HelloWorld',
   mounted () {
