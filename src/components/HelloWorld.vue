@@ -6,19 +6,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'HelloWorld',
-  mounted () {
-    browser.runtime.sendMessage({})
-  },
-  computed: {
-    defaultText () {
-      return browser.i18n.getMessage('extName')
-    }
-  }
-})
+	name: 'HelloWorld',
+	mounted () {
+		browser.runtime.sendMessage({});
+	},
+	computed: {
+		defaultText () {
+			return browser.i18n.getMessage('extName');
+		}
+	}
+});
 </script>
 
 <style scoped>

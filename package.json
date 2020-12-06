@@ -38,7 +38,21 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "ignorePatterns": [ "dist/*" ],
+    "rules": {
+      "quotes": [
+          "error",
+          "single"
+      ],
+      "indent": [
+          "warn",
+          "tab"
+      ],
+      "semi": [
+          "warn",
+          "always"
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
