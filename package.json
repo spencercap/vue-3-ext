@@ -1,9 +1,9 @@
 {
-  "name": "vue-3-test",
+  "name": "vue-3-ext",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service build --mode development --watch",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -11,6 +11,7 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
+    "@types/firefox-webext-browser": "^67.0.2",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -20,12 +21,14 @@
     "@vue/eslint-config-typescript": "^5.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
-    "typescript": "~3.9.3"
+    "typescript": "~3.9.3",
+    "vue-cli-plugin-browser-extension": "~0.25.1"
   },
   "eslintConfig": {
     "root": true,
     "env": {
-      "node": true
+      "node": true,
+      "webextensions": true
     },
     "extends": [
       "plugin:vue/vue3-essential",
