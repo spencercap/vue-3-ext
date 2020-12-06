@@ -1,6 +1,6 @@
 <template>
-  <span>popup:</span>
-  <hello-world />
+	<span>popup:</span>
+	<hello-world />
 </template>
 
 <script lang="ts">
@@ -15,7 +15,7 @@ export default defineComponent({
 
 <style>
 html {
-  width: 400px;
-  height: 400px;
+	width: 400px;
+	height: 400px;
 }
 </style>

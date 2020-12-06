@@ -1,6 +1,6 @@
 <template>
-  standalone:
-  <hello-world />
+	standalone:
+	<hello-world />
 </template>
 
 <script lang="ts">

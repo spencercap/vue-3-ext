@@ -1,6 +1,6 @@
 <template>
-  devtools:
-  <hello-world />
+	devtools:
+	<hello-world />
 </template>
 
 <script lang="ts">

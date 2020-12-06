@@ -1,7 +1,7 @@
 <template>
-  override:
-  <img alt="Vue logo" src="../assets/logo.png">
-  <hello-world />
+	override:
+	<img alt="Vue logo" src="../assets/logo.png">
+	<hello-world />
 </template>
 
 <script lang="ts">

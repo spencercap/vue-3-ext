@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <p>hello world:</p>
-    <p>{{ defaultText }}</p>
-  </div>
+	<div>
+		<p>hello world:</p>
+		<p>{{ defaultText }}</p>
+	</div>
 </template>
 
 <script lang="ts">
@@ -23,6 +23,6 @@ export default defineComponent({
 
 <style scoped>
 p {
-  font-size: 20px;
+	font-size: 20px;
 }
 </style>
